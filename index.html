@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kor Klub</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--------------- Navbar ----------------->
+  <nav class="navbar">
+    <a href="index.html">
+        <img class="logo" src="images/logo.png" alt="">
+    </a>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+ </nav>
+ 
+  <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+  </div>
+  <!--------------- Navbar ----------------->
+  <!--------------- Hero Section ----------------->
+  <div class="hero-section">
+    <video class="hero-bg-video" autoplay loop muted playsinline>
+        <source src="videos/background.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay">
+        <h1>KOR KLUB</h1>
+    </div>
+</div>
+  <!--------------- Hero Section ----------------->
+  <!--------------- Coming Soon Section ----------------->
+    <div class="coming-soon pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>COMING SOON</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--------------- Coming Soon Section----------------->
+  <!--------------- In Store Section ----------------->
+  <!--<div class="in-store pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-center mb-4">IN STORE:</h5>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                    <img src="images/pilates.jpg" alt="Pilates" class="img-fluid mb-2 store-img" />
+                    <h5 class="text-center">Pilates</h5>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                    <img src="images/barre.jpg" alt="Barre" class="img-fluid mb-2 store-img" />
+                    <h5 class="text-center">Barre</h5>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                    <img src="images/wellness_therapies.jpg" alt="Wellness Therapies" class="img-fluid mb-2 store-img" />
+                    <h5 class="text-center">Wellness Therapies</h5>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                    <img src="images/social_events.jpg" alt="Social Events" class="img-fluid mb-2 store-img" />
+                    <h5 class="text-center">Social Events</h5>
+                </div>
+                
+            </div> 
+
+        </div>
+  </div> -->
+  <div class="in-store pt-5">
+    <div class="container">
+      <h5 class="text-center mb-4">IN STORE:</h5>
+      <div class="d-flex flex-column align-items-center">
+        <div class="mb-5 text-center">
+          <img src="images/pilates.jpg" alt="Pilates" class="img-fluid mb-2 store-img" />
+          <h5>Pilates</h5>
+        </div>
+        <div class="mb-5 text-center">
+          <img src="images/barre.jpg" alt="Barre" class="img-fluid mb-2 store-img" />
+          <h5>Barre</h5>
+        </div>
+        <div class="mb-5 text-center">
+          <img src="images/wellness_therapies.jpg" alt="Wellness Therapies" class="img-fluid mb-2 store-img" />
+          <h5>Wellness Therapies</h5>
+        </div>
+        <div class="mb-5 text-center">
+          <img src="images/social_events.jpg" alt="Social Events" class="img-fluid mb-2 store-img" />
+          <h5>Social Events</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--------------- In Store Section ----------------->
+  <!--------------- Footer Section ----------------->
+  <div class="footer pt-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-end order-1 order-md-0">
+                    <a class="policy" href="policy.html">Privacy Policy</a>
+                </div>
+                <div class="col-12 col-md-6 text-md-center order-0 order-md-1">
+                    <div class="mb-3">
+                        <a class="" href="index.html"><img src="images/favicon.png" alt="logo"></a>
+                    </div>
+                    <h5>Kor Klub</h5>
+                    <p class="brand"><span class="copyright">&copy;</span> Brand Under Elanora India Private Limited</p>
+                </div>
+            </div>
+        </div>
+  </div>
+  <!--------------- Footer Section ----------------->
+  <script src="script.js"></script>
+</body>
+</html>
